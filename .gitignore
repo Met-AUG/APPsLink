@@ -1,0 +1,60 @@
+# Xcode
+#
+# gitignore 文件用于指定不应该提交到 Git 的文件和目录
+# 详情: https://git-scm.com/docs/gitignore
+
+## 构建产物
+build/
+DerivedData/
+*.ipa
+*.app
+*.app.dSYM.zip
+*.app.zip
+
+## Xcode 用户设置
+xcuserdata/
+
+## 应用程序包
+*.xcarchive
+
+## 其他
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+## Obj-C/Swift 特定
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# 可能出现在卷根目录中的文件
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 可能会在远程已挂载卷上创建的目录
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
