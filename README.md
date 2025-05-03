@@ -33,7 +33,7 @@ APPsLink 是一个 macOS 应用程序，用于自动为外置硬盘上安装的�
 ## 安装
 
 ### 下载安装包
-从 [Releases](https://github.com/yourusername/APPsLink/releases) 页面下载最新版本的 `.dmg` 文件，打开并将应用拖到 Applications 文件夹。
+从 [Releases](https://github.com/yourusername/APPsLink/releases) 页面下载最新版本的 `.zip` 文件，解压后即可使用。
 
 ### 从源码构建
 ```bash
